@@ -129,8 +129,10 @@ th, thead td {
   font-size: 1.2em;
   font-weight: bold;
   position: absolute;
-  top: 0.6em;
-  right: 0;
+  top: 0.5em;
+  right: 560px;
+  color: #6e6e6e;
+  font-style: italic;  
 }
 
 
