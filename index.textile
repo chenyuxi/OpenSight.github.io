@@ -10,7 +10,7 @@ h2(#why).  我们的产品
 
 "存储服务器":/storage_server.html:
 
-bq. If you think about it, the question isn’t “Why use Buildr?”, it’s really “Why use anything else?” The advantages afforded by Buildr are so substantial, I really can’t see myself going with any other tool, at least not when I have a choice.
+bq. 源景团队跟据自身多年在视频录像存储领域的研发与运维经验
 
 "IP存储":/ip_storage.html:
 
