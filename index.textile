@@ -14,7 +14,7 @@ bq. 源景团队跟据多年在视频录像存储领域的研发与运维经验,
 
 "IP存储":/ip_storage.html:
 
-bq. That’s still the strongest sell: it builds everything I need, and as I’ve needed more, I just got things working without a lot of fuss.
+bq. IP存储管理系统是源景团队基于自己维护的开源项目OpenStor及其他开源存储技术，开发出的一套高性能，高可靠性的企业级的IP存储应用，该系统能够提供业界标准的@NAS(NFS/CIFS/FTP/HTTP)@和@IP-SAN@输出，支持硬件或软件级磁盘阵列@(raid 0,1,5,6,50,60)@，支持逻辑卷划分、动态扩容，支持监控级硬盘......
 
 "NVR存储":/nvr_storage.html:
 
