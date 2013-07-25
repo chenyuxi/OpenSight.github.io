@@ -18,7 +18,7 @@ bq. IP存储管理系统是基于源景维护的开源项目OpenStor及其他开
 
 "NVR存储":/nvr_storage.html:
 
-bq. 网络视频录像机 (Network Video Recorder，简称NVR) 是IP视频监控系统的核心设备，其录像的稳定性关乎整个项目的服务质量。源景的NVR系统支持集群，能够将多个NVR节点集群起来协同工作，可接入上万路高清视频进行录像，同时具有负载均衡(Loadbalance)，和失败转移能力(Failover)，提高可靠性......
+bq. 网络视频录像机 (Network Video Recorder，简称NVR) 是基于IP的视频监控系统的核心设备，其录像的稳定性关乎整个项目的服务质量。源景自主研发的NVR系统是具有海量接入能力，高可靠录像，支持弹性伸缩的集群NVR方案，通过将多个NVR节点集群起来协同工作，可接入上万路高清视频录像，同时具有负载均衡(Loadbalance)，和失败转移能力(Failover)，提高可靠性......
 
 "技术咨询":/tech_consult.html:
 
