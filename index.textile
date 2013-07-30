@@ -16,7 +16,7 @@ h2(#news).  最新动态
 {% endfor %}
 
 
-h2(#why).  我们的产品
+h2(#why).  研发产品
 
 "存储服务器":/storage_server.html:
 
