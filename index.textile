@@ -40,7 +40,12 @@ h2(#what).  What You Get
 So let's get started.  You can "read the documentation online":quick_start.html, or "download the PDF":buildr.pdf.
 
 
-h2(#news).  What's New
+h2(#news).  最新动态
+
+{% for post in site.posts %}
+{{ post.date | date_to_string }}&nbsp;&nbsp;"{{ post.title }}":{{ post.url }}
+   
+{% endfor %}
 
 New in Buildr 1.4.3:
 
