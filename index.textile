@@ -6,11 +6,20 @@ title: OpenSight Home
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;杭州源景系统工作室是一支专注于互联网视频监控技术研发的团队，公司由相关领域的技术专家，资深工程师组成，已经拥有视频存储，流媒体传输，分布式集群，视频监控平台等多项核心技术，并已经推出了IP存储，及NVR集群等相关产品。
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;源景团队将继续致力于通过（移动）互联网，云计算等新技术对传统视频监控进行革新并进行开源，一方面促进视频监控行业的技术发展，另一方面使我们的视频监控系统变得更容易用、更实用，更好地为我们的日常服务。
 
+
+h2(#news).  最新动态
+
+{% for post in site.posts %}
+{{ post.date | date_to_string }} &nbsp; "{{ post.title }}":{{ post.url }}
+<blockquote>{{ post.excerpt }}</blockquote>
+{% endfor %}
+
+
 h2(#why).  我们的产品
 
 "存储服务器":/storage_server.html:
 
-bq. 源景团队跟据多年在视频录像存储领域的研发与运维经验,定制出一系列专门用于视频监控的存储服务器,这类存储服务器运行稳定可靠,性价比高,和视频录像的应用配合得十分出色。服务器分为三个系列，有不同的配置和特点，分别面向不同的细分客户市场......
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;源景团队跟据多年在视频录像存储领域的研发与运维经验,定制出一系列专门用于视频监控的存储服务器,这类存储服务器运行稳定可靠,性价比高,和视频录像的应用配合得十分出色。服务器分为三个系列，有不同的配置和特点，分别面向不同的细分客户市场......
 
 "IP存储":/ip_storage.html:
 
@@ -39,13 +48,6 @@ h2(#what).  What You Get
 
 So let's get started.  You can "read the documentation online":quick_start.html, or "download the PDF":buildr.pdf.
 
-
-h2(#news).  最新动态
-
-{% for post in site.posts %}
-{{ post.date | date_to_string }} &nbsp; "{{ post.title }}":{{ post.url }}
-<blockquote>{{ post.excerpt }}</blockquote>
-{% endfor %}
 
 
 
