@@ -42,6 +42,9 @@ So let's get started.  You can "read the documentation online":quick_start.html,
 
 h2(#news).  最新动态
 
+{% for post in site.posts %}
+   
+{% endfor %}
 
 New in Buildr 1.4.3:
 
