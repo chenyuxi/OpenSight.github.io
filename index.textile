@@ -44,8 +44,7 @@ h2(#news).  最新动态
 
 {% for post in site.posts %}
 {{ post.date | date_to_string }} &nbsp; "{{ post.title }}":{{ post.url }}
-{{ post.excerpt }}
-* Did we mention fast?
+<blockquote>{{ post.excerpt }}</blockquote>
 {% endfor %}
 
 
