@@ -1,0 +1,7 @@
+---
+layout: default
+title: 测试中文标题
+---
+
+
+测试，中文标题
