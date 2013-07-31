@@ -10,11 +10,12 @@ title: OpenSight Home
 
 h2(#news).  最新动态
 
-{% for post in site.posts %}
+{% for post in site.posts limit:3 %}
 {{ post.date | date_to_string }} &nbsp; "{{ post.title }}":{{ post.url }}
 <blockquote>{{ post.excerpt }}</blockquote>
 {% endfor %}
 
+"查看更多......":/team_news.html
 
 h2(#why).  研发产品
 
