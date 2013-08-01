@@ -4,7 +4,7 @@ title: Team News
 ---
 
 {% for post in site.posts limit:10 %}
-* {{ post.date | date_to_string }} &nbsp; "{{ post.title }}":{{ post.url }}
+{{ post.date | date_to_string }} &nbsp; "{{ post.title }}":{{ post.url }}
 <blockquote>{{ post.excerpt }}</blockquote>
 {% endfor %}
 

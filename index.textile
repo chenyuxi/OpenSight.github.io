@@ -5,7 +5,7 @@ title: OpenSight Home
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;杭州源景系统工作室是一支专注于互联网视频监控技术研发的团队，公司由相关领域的技术专家，资深工程师组成，已经拥有视频录像存储，流媒体传输，分布式集群，视频监控平台等多项核心技术，并已经推出了IP存储，及NVR集群等相关产品。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;源景团队将继续致力于通过（移动）互联网，云计算等新技术对传统视频监控进行革新并进行开源，一方面促进视频监控行业的技术发展，另一方面使我们的视频监控系统变得更容易用、更实用，更好地为我们的日常服务。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;源景团队将继续致力于通过（移动）互联网，云计算等新技术对传统视频监控进行革新并进行开源，一方面促进视频监控行业的技术发展，另一方面使我们的视频监控系统更易用，好用（Anywehre, Anytime)，能够被更多的行业广泛应用。
 
 
 h2(#news).  最新动态
@@ -19,23 +19,32 @@ h2(#news).  最新动态
 
 h2(#product).  源景产品
 
-"存储服务器":/storage_server.html:
+"存储服务器":/storage_server.html
 
 bq. 源景团队跟据多年在视频录像存储领域的研发与运维经验,定制出一系列专门用于视频监控的存储服务器,这类存储服务器运行稳定可靠,性价比高,和视频录像的应用配合得十分出色。服务器分为三个系列，有不同的配置和特点，分别面向不同的细分客户市场......
 
-"IP存储":/ip_storage.html:
+"IP存储":/ip_storage.html
 
 bq. IP存储管理系统是基于源景维护的开源项目OpenStor及其他开源存储技术，开发出的一套高性能、高可靠性、低成本的企业级IP存储应用，该系统能够提供业界标准的NAS(NFS/CIFS/FTP/HTTP)和IP-SAN输出，支持硬件或软件级磁盘阵列(Raid 0, 1, 5, 6, 50, 60)，支持逻辑卷划分、动态扩容，支持监控级硬盘，支持网口聚合......
 
-"NVR存储":/nvr_storage.html:
+"NVR存储":/nvr_storage.html
 
 bq. 网络视频录像机 (Network Video Recorder，简称NVR) 是基于IP的视频监控系统的核心设备，其录像的稳定性关乎整个项目的服务质量。源景自主研发的NVR系统是具有海量接入能力，高可靠性录像，支持弹性伸缩的NVR集群方案，通过多个NVR节点集群起来协同工作，可接入上万路高清视频录像，同时具有负载均衡(Loadbalance)，和失败转移能力(Failover)......
 
-"技术咨询":/tech_consult.html:
+"技术咨询":/tech_consult.html
 
 bq. 源景系统在提供软硬件产品的同时，能够为客户提供视频监控的技术咨询服务，包括配件选型，视频监控方案设计，系统故障排查，项目实施监理，技术培训......
 
 h2(#opensource).  开源项目
+
+源景系统在自主研发产品和技术的同时，也将自己的核心技术贡献给开源社区。源景系统维护着两个比较重要的视频监控类开源项目(open source)，该项目是目前国内唯一的视频监控存储类开源项目
+
+"StorLever":/storlever/
+
+
+
+"OpenNVR":/storlever/
+
 
 * A simple way to specify projects, and build large projects out of smaller sub-projects.
 * Pre-canned tasks that require the least amount of configuration, keeping the build script DRY and simple.
@@ -47,5 +56,7 @@ h2(#opensource).  开源项目
 * Buildr is Ruby all the way down.  No one-off task is too demanding when you write code using variables, functions and objects.
 * Simple way to upgrade to new versions.
 * Did we mention fast?
+
+
 
 So let's get started.  You can "read the documentation online":quick_start.html, or "download the PDF":buildr.pdf.
