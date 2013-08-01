@@ -17,7 +17,7 @@ h2(#news).  最新动态
 
 "查看更多......":/team_news.html
 
-h2(#why).  研发产品
+h2(#product).  源景产品
 
 "存储服务器":/storage_server.html:
 
@@ -35,7 +35,7 @@ bq. 网络视频录像机 (Network Video Recorder，简称NVR) 是基于IP的视
 
 bq. 源景系统在提供软硬件产品的同时，能够为客户提供视频监控的技术咨询服务，包括配件选型，视频监控方案设计，系统故障排查，项目实施监理，技术培训......
 
-h2(#what).  What You Get
+h2(#opensource).  开源项目
 
 * A simple way to specify projects, and build large projects out of smaller sub-projects.
 * Pre-canned tasks that require the least amount of configuration, keeping the build script DRY and simple.
@@ -49,17 +49,3 @@ h2(#what).  What You Get
 * Did we mention fast?
 
 So let's get started.  You can "read the documentation online":quick_start.html, or "download the PDF":buildr.pdf.
-
-
-
-
-
-h2(#notices).  Credits & Notices
-
-!http://www.apache.org/images/asf-logo.gif(A project of the Apache Software Foundation)!:http://www.apache.org
-
-The Apache Software Foundation is a non-profit organization, consider "sponsoring":http://www.apache.org/foundation/sponsorship.html and check the "thanks":http://www.apache.org/foundation/thanks.html page.
-
-"ColorCons":http://www.mouserunner.com/Spheres_ColoCons1_Free_Icons.html, copyright of Ken Saunders.  "DejaVu fonts":http://dejavu.sourceforge.net, copyright of Bitstream, Inc.
-
-Community member quotes from a thread on "Stack Overflow":http://stackoverflow.com/questions/1015525/why-use-buildr-instead-of-ant-or-maven/1055864.
