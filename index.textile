@@ -37,7 +37,7 @@ bq. 源景系统在提供软硬件产品的同时，能够为客户提供视频�
 
 h2(#opensource).  开源项目
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;源景系统在自主研发产品和技术的同时，也将自己的核心技术贡献给开源社区。源景系统维护着两个比较重要的视频监控类开源社区(open source)，希望能得到广大同业者的支持和参与。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;源景系统在自主研发产品和技术的同时，也将自己的核心技术贡献给开源社区。源景系统维护着两个比较重要的视频监控类开源社区(open source)，希望能得到广大视频监控爱好者和工程师的支持和参与。
 
 "StorLever":/storlever/
 
@@ -49,11 +49,22 @@ bq. 基于通用的计算机硬件（x86)，面向主流的linux平台（redhat/
 * 支持iSCSI接入，支持NFS接入，支持ext4及xfs文件系统
 * 支持IP-SAN（iSCSI）输出
 * 支持NAS（nfs/cifs/ftp/http)输出
+* 支持RESTful风格的管理API
+* ......
 
 
-"OpenNVR":/storlever/
+"OpenNVR":/opennvr/
 
-bq. test
+bq. 一个开源（Open Source）NVR实现方案，可以替代市场上商业级NVR产品，在具有普通NVR功能之上，着重ONVIF/RTSP网络摄像机管理和控制，实时视频的转发，录像与回放，双份录像存储，多节点集群等特点，是基于IP的视频监控的集群录像方案
+
+* 支持搜索和管理ONVIF/RTSP网络摄像机
+* 支持IPC远程流配置，支持IPC云台控制
+* 支持IPC双码流通道
+* 支持H264, Mpeg4, G711等音视频编码
+* 支持双份视频录像
+* 支持集群系统，支持任务自动均衡(LoadBalance)，以及失败转移(Failover)
+* 支持RESTful风格的API
+* ......
 
 p(tip). StorLever和OpenNVR是目前国内唯一的视频监控类的开源解决方案。
 
